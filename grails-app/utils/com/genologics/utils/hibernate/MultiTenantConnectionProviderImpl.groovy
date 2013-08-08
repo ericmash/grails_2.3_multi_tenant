@@ -28,11 +28,11 @@ class MultiTenantConnectionProviderImpl extends AbstractMultiTenantConnectionPro
             Map configuration = [
                     (AvailableSettings.DRIVER): 'org.postgresql.Driver',
                     (AvailableSettings.AUTOCOMMIT): false
-//                    (AvailableSettings.ISOLATION): false
             ]
 
-
-            switch (tenantId) {
+            // instead of using tenant id that is stored in each hibernate 4 session
+            // use the tenant id in ThreadLocal variable which is resolved from DNS
+            switch (CurrentTenantHolder.tenantId) {
                 case 'tenant1':
                     configuration[AvailableSettings.URL] = 'jdbc:postgresql://localhost:5432/multiTenant1'
                     break
