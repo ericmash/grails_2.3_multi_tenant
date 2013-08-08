@@ -38,6 +38,7 @@ grails.project.dependency.resolution = {
         grailsPlugins()
         grailsHome()
         mavenLocal()
+        mavenRepo "http://gls-mvn-repo:9081/nexus/content/groups/all"
         grailsCentral()
         mavenCentral()
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
@@ -49,6 +50,7 @@ grails.project.dependency.resolution = {
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
         // runtime 'mysql:mysql-connector-java:5.1.24'
+        runtime 'postgresql:postgresql:9.2-1002.jdbc4'
     }
 
     plugins {
@@ -60,7 +62,8 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.1'
 
         // plugins needed at runtime but not for compilation
-        runtime ":hibernate:3.6.10.M5" // or ":hibernate4:4.1.11.M2"
+//        runtime ":hibernate:3.6.10.M5"
+        runtime ":hibernate4:4.1.11.M2"
         runtime ":database-migration:1.3.5"
         runtime ":jquery:1.10.2"
         runtime ":resources:1.2"
