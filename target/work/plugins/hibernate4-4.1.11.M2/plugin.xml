@@ -1,0 +1,9 @@
+<plugin name='hibernate4' version='4.1.11.M2' grailsVersion='2.3 &gt; *'>
+  <author>Burt Beckwith</author>
+  <authorEmail>bbeckwith@gopivotal.com</authorEmail>
+  <title>Hibernate 4 for Grails</title>
+  <description>Provides integration between Grails and Hibernate 4 through GORM</description>
+  <documentation>http://grails.org/plugin/hibernate4</documentation>
+  <type>Hibernate4GrailsPlugin</type>
+  <resources />
+</plugin>
