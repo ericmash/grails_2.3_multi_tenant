@@ -22,6 +22,13 @@ environments {
 //            dbCreate = "validate" // one of 'create', 'create-drop', 'update', 'validate', ''
             url = "jdbc:postgresql://localhost:5432/objectTestDB"
         }
+        dataSource_tenant {
+            pooled = true
+            driverClassName = "org.postgresql.Driver"
+            username = "proteo"
+            password = ""
+            url = "jdbc:postgresql://localhost:5432/tenant_dns"
+        }
     }
     test {
         dataSource {

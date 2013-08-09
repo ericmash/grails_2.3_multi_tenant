@@ -1,5 +1,6 @@
 package com.genologics.utils.hibernate
 
+import grails_2_3_playground.Tenant
 import org.hibernate.cfg.AvailableSettings
 import org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl
 import org.hibernate.service.jdbc.connections.spi.AbstractMultiTenantConnectionProvider
@@ -18,21 +19,24 @@ class MultiTenantConnectionProviderImpl extends AbstractMultiTenantConnectionPro
     protected ConnectionProvider selectConnectionProvider(String tenantId) {
         // instead of using tenant id that is stored in each hibernate 4 session
         // use the tenant id in ThreadLocal variable which is resolved from DNS
-        String resolvedTenantId = CurrentTenantHolder.tenantId
-        ConnectionProvider connectionProvider = tenantIdToConnectionProvider[resolvedTenantId]
+        Tenant tenant = CurrentTenantHolder.tenant
+
+        // when server starts, it initializes session factory which requires a default connection provider
+        // this default connection provider shouldn't be used most of the time
+        if (!tenant) {
+            return createConnectionProvider('objectTestDB')
+        }
+
+        ConnectionProvider connectionProvider
+
+        // use the following line for conection provider caching
+        // if cache is enabled, database connection can be added to new tenant, but cannot be modified
+//        ConnectionProvider connectionProvider = tenantIdToConnectionProvider[tenant.tenantId]
 
         if (!connectionProvider) {
-            switch (resolvedTenantId) {
-                case 'tenant1':
-                    connectionProvider = createConnectionProvider('multiTenant1')
-                    break
-                case 'default':
-                default:
-                    connectionProvider = createConnectionProvider('objectTestDB')
-                    break
-            }
-
-            tenantIdToConnectionProvider[resolvedTenantId] = connectionProvider
+            connectionProvider = createConnectionProvider(tenant.database)
+            // disable this line so that databse can be changed on the fly
+            tenantIdToConnectionProvider[tenant.tenantId] = connectionProvider
         }
 
         return connectionProvider

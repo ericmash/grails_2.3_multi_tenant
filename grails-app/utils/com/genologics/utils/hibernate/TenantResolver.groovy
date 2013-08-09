@@ -5,7 +5,7 @@ import org.hibernate.context.spi.CurrentTenantIdentifierResolver
 class TenantResolver implements CurrentTenantIdentifierResolver {
     @Override
     String resolveCurrentTenantIdentifier() {
-        return 'tenant1'
+        return 'doNotUse'
     }
 
     @Override
