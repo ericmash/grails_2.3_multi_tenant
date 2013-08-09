@@ -2,27 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f50c500-c470-4409-aa36-d4879dd86678" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/MultiTenantConnectionProviderImpl.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/TenantResolver.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/grails_2_3_playground/grails-resources/css/errors.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="grails_2_3_playground.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376003126144" ignored="false" />
-    <file path="/a.dummy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375989547286" ignored="false" />
-    <file path="/DataSource.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375994606426" ignored="false" />
+    <file path="/Dummy.txt" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376032649035" ignored="false" />
+    <file path="/a.dummy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376031118089" ignored="false" />
+    <file path="/DataSource.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376010716950" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375995530138" ignored="false" />
     <file path="/Protocol.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375989053766" ignored="false" />
     <file path="/index.gsp" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375989128504" ignored="false" />
     <file path="/MultiTenantConnectionproviderImpl.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375995408021" ignored="false" />
-    <file path="/MultiTenantConnectionProviderImpl.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375997672413" ignored="false" />
+    <file path="/MultiTenantConnectionProviderImpl.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376032545692" ignored="false" />
     <file path="/TenantResolver.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375995766870" ignored="false" />
-    <file path="/resources.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375999141320" ignored="false" />
-    <file path="$PROJECT_DIR$/target/work/resources/web.xml" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1375998853987" ignored="false" />
+    <file path="/resources.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376026392057" ignored="false" />
+    <file path="$PROJECT_DIR$/../grails-hibernate-spike/activity-management-ui/grails-app/utils/com/genologics/isis/connection/TenantAwareConnectionProvider.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376005918632" ignored="false" />
+    <file path="/TenantAwareConnectionProvider.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376003691685" ignored="false" />
+    <file path="/MultiTenantFilters.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376031666466" ignored="false" />
+    <file path="/CurrentTenantHolder.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376031639752" ignored="false" />
+    <file path="/a.sql" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376030478268" ignored="false" />
+    <file path="/dummy.sql" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376030475938" ignored="false" />
+    <file path="/Tenant.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376029994426" ignored="false" />
+    <file path="/TenantController.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376030750549" ignored="false" />
+    <file path="/TenantService.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376031424091" ignored="false" />
+    <file path="$PROJECT_DIR$/../grails-hibernate-spike/activity-management-domain/grails-app/services/com/genologics/isis/domain/process/ProjectService.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376028231975" ignored="false" />
+    <file path="/ProjectService.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376028231975" ignored="false" />
+    <file path="/ProtocolController.groovy" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376029837640" ignored="false" />
+    <file path="$PROJECT_DIR$/target/work/resources/web.xml" changelist="7f50c500-c470-4409-aa36-d4879dd86678" time="1376032107485" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +121,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/MultiTenantConnectionProviderImpl.groovy" line="23" class="com.genologics.utils.hibernate.MultiTenantConnectionProviderImpl" package="com.genologics.utils.hibernate">
+      <breakpoint url="file://$PROJECT_DIR$/grails-app/services/grails_2_3_playground/TenantService.groovy" line="11" class="grails_2_3_playground.TenantService" package="grails_2_3_playground">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -134,22 +145,13 @@
     <favorites_list name="grails_2_3_playground" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.74070024">
       <split-first>
         <leaf>
-          <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <file leaf-file-name="MultiTenantFilters.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/conf/grails_2_3_playground/MultiTenantFilters.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="53" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="resources.groovy" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="5" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+                <state line="12" column="46" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -158,68 +160,79 @@
           <file leaf-file-name="DataSource.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="18" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+                <state line="29" column="62" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="MultiTenantConnectionProviderImpl.groovy" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="resources.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="44" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Tenant.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_2_3_playground/Tenant.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="3" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.9">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TenantController.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_2_3_playground/TenantController.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="7" column="25" selection-start="132" selection-end="132" vertical-scroll-proportion="-4.5652175">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CurrentTenantHolder.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/CurrentTenantHolder.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="12" column="44" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TenantService.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/services/grails_2_3_playground/TenantService.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Protocol.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_2_3_playground/Protocol.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.6">
+                  <folding />
+                </state>
+              </provider>
+              <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+                <state />
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MultiTenantConnectionProviderImpl.groovy" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/MultiTenantConnectionProviderImpl.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="28" column="50" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0">
+                <state line="32" column="102" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.7931624">
                   <folding>
-                    <element signature="e#40#82#0" expanded="true" />
+                    <element signature="e#40#75#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TenantResolver.groovy" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/TenantResolver.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="23" selection-start="248" selection-end="255" vertical-scroll-proportion="0.21516393">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SchemaUpdate.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/tool/hbm2ddl/SchemaUpdate.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="193" column="0" selection-start="6575" selection-end="6575" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserSuppliedConnectionProviderImpl.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/service/jdbc/connections/internal/UserSuppliedConnectionProviderImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="13" selection-start="1599" selection-end="1599" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#0#2660#0" expanded="false" />
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#1880#1913#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grails-app/views/protocol/index.gsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="51" selection-start="1217" selection-end="1217" vertical-scroll-proportion="-7.93617">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ProtocolController.groovy" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_2_3_playground/ProtocolController.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="17" selection-start="1081" selection-end="1081" vertical-scroll-proportion="-22.173914">
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -228,29 +241,6 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="MultiTenantConnectionProvider.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/service/jdbc/connections/spi/MultiTenantConnectionProvider.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="44" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#0#3746#0" expanded="false" />
-                    <element signature="imports" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TransactionAwareDataSourceProxy.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar:///opt/grails/grails-2.3.0.RC1/lib/org.springframework/spring-jdbc/jars/spring-jdbc-3.2.3.RELEASE-sources.jar!/org/springframework/jdbc/datasource/TransactionAwareDataSourceProxy.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="171" column="14" selection-start="7395" selection-end="7395" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="TransactionAwareDataSourceConnectionProvider.java" pinned="false" current="false" current-in-tab="false">
             <entry file="jar://$USER_HOME$/.ideaLibSources/spring-orm-3.2.3.RELEASE-sources.jar!/org/springframework/orm/hibernate3/TransactionAwareDataSourceConnectionProvider.java">
               <provider selected="true" editor-type-id="text-editor">
@@ -263,26 +253,64 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LocalDataSourceConnectionProvider.java" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="LocalDataSourceConnectionProvider.java" pinned="false" current="false" current-in-tab="false">
             <entry file="jar://$USER_HOME$/.ideaLibSources/spring-orm-3.2.3.RELEASE-sources.jar!/org/springframework/orm/hibernate3/LocalDataSourceConnectionProvider.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="21" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.9574468">
+                <state line="35" column="7" selection-start="1233" selection-end="1233" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="DriverManagerConnectionProviderImpl.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/service/jdbc/connections/internal/DriverManagerConnectionProviderImpl.java">
+          <file leaf-file-name="SessionFactory.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/SessionFactory.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="59" column="13" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0">
+                <state line="53" column="26" selection-start="2078" selection-end="2078" vertical-scroll-proportion="0.0">
                   <folding>
-                    <element signature="e#0#7904#0" expanded="false" />
                     <element signature="imports" expanded="false" />
-                    <element signature="e#2860#2872#0" expanded="false" />
-                    <element signature="e#3212#3245#0" expanded="false" />
                   </folding>
                 </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SessionFactoryImplementor.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/engine/spi/SessionFactoryImplementor.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="67" column="42" selection-start="2842" selection-end="2867" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SessionFactoryImpl.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/internal/SessionFactoryImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1690" column="27" selection-start="63080" selection-end="63080" vertical-scroll-proportion="49.16">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SessionImpl.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/internal/SessionImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="235" column="17" selection-start="10160" selection-end="10160" vertical-scroll-proportion="-16.2">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tenant_dns.public.tenant_dns_map" pinned="false" current="true" current-in-tab="true">
+            <entry file="dbDummy://dbtable:/b6b294a3/e4e1fb5d-ecc0-4568-adaa-66d1b67ae4d3/tenant_dns.public.tenant_dns_map">
+              <provider editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+              <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+                <state />
               </provider>
             </entry>
           </file>
@@ -338,17 +366,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="dbtable:/b6b294a3/8a2ca9eb-a980-477b-a2f2-7c7e6502d27e/objectTestDB.public.protocol" />
         <option value="dbtable:/b6b294a3/8a2ca9eb-a980-477b-a2f2-7c7e6502d27e/objectTestDB.public.labprotocol" />
         <option value="$PROJECT_DIR$/grails-app/domain/grails_2_3_playground/Protocol.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/protocol/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/grails_2_3_playground/ProtocolController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/MultiTenantConnectionproviderImpl.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/MultiTenantConnectionProviderImpl.groovy" />
+        <option value="dbtable:/b6b294a3/e4e1fb5d-ecc0-4568-adaa-66d1b67ae4d3/tenant_dns.public.tenant_dns_map" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/TenantResolver.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/spring/resources.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/grails_2_3_playground/ProtocolController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/grails_2_3_playground/Tenant.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/grails_2_3_playground/TenantController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/grails_2_3_playground/TenantService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/CurrentTenantHolder.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/grails_2_3_playground/MultiTenantFilters.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/MultiTenantConnectionProviderImpl.groovy" />
       </list>
     </option>
   </component>
@@ -434,6 +467,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hibernate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails_2_3_playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails_2_3_playground" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails_2_3_playground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,13 +698,13 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6750547" sideWeight="0.670987" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6739606" sideWeight="0.6703297" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996004" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15973742" sideWeight="0.67132866" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15973742" sideWeight="0.6703297" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.670987" order="4" side_tool="false" content_ui="tabs" />
@@ -659,8 +714,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5109409" sideWeight="0.67132866" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5109409" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24919957" sideWeight="0.67132866" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -709,7 +764,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project file updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve tenant dynamically using tenant database" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -726,138 +781,137 @@
     <MESSAGE value="IntelliJ Settings" />
     <MESSAGE value="Hook up Clarity protocol domain with a list view" />
     <MESSAGE value="Project file updates" />
+    <MESSAGE value="Enable multiple tenancy with hardcoded datasource and client id" />
+    <MESSAGE value="Resolve tenant id based on dns" />
+    <MESSAGE value="Resolve tenant dynamically using tenant database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-entitymanager-4.1.11.Final-sources.jar!/org/hibernate/ejb/connection/InjectedDataSourceConnectionProvider.java">
+    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/concurrent/ThreadPoolExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="13" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0">
+        <state line="169" column="0" selection-start="7689" selection-end="7689" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/context/spi/CurrentTenantIdentifierResolver.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/internal/SessionFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="17" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
+        <state line="1690" column="27" selection-start="63080" selection-end="63080" vertical-scroll-proportion="49.16">
           <folding>
-            <element signature="e#0#2056#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/service/jdbc/connections/internal/DriverManagerConnectionProviderImpl.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/engine/spi/SessionFactoryImplementor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="13" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#7904#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2860#2872#0" expanded="false" />
-            <element signature="e#3212#3245#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/service/jdbc/connections/internal/DatasourceConnectionProviderImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="8" selection-start="3365" selection-end="3365" vertical-scroll-proportion="0.0">
+        <state line="67" column="42" selection-start="2842" selection-end="2867" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/service/jdbc/connections/spi/MultiTenantConnectionProvider.java">
+    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/internal/SessionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="44" selection-start="1596" selection-end="1596" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#3746#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/grails/grails-2.3.0.RC1/lib/org.springframework/spring-jdbc/jars/spring-jdbc-3.2.3.RELEASE-sources.jar!/org/springframework/jdbc/datasource/TransactionAwareDataSourceProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="14" selection-start="7395" selection-end="7395" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.2.3.RELEASE/spring-orm-3.2.3.RELEASE.jar!/org/springframework/orm/hibernate3/TransactionAwareDataSourceConnectionProvider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="235" column="17" selection-start="10160" selection-end="10160" vertical-scroll-proportion="-16.2">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_2_3_playground/ProtocolController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="53" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
+        <state line="13" column="22" selection-start="302" selection-end="302" vertical-scroll-proportion="-0.9574468">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_2_3_playground/Protocol.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/TenantResolver.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="354" selection-end="354" vertical-scroll-proportion="0.24193548">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/grails_2_3_playground/Tenant.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="56" selection-end="56" vertical-scroll-proportion="-0.9">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+        <state line="29" column="62" selection-start="1112" selection-end="1112" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/tool/hbm2ddl/SuppliedConnectionProviderConnectionHelper.java">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/grails_2_3_playground/TenantController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1939" selection-end="1939" vertical-scroll-proportion="0.0">
+        <state line="7" column="25" selection-start="132" selection-end="132" vertical-scroll-proportion="-4.5652175">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/hibernate-core-4.1.11.Final-sources.jar!/org/hibernate/service/jdbc/connections/spi/AbstractMultiTenantConnectionProvider.java">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/grails_2_3_playground/TenantService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="1433" selection-end="1433" vertical-scroll-proportion="0.32038835">
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/grails_2_3_playground/MultiTenantFilters.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="46" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="44" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/CurrentTenantHolder.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/MultiTenantConnectionProviderImpl.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="50" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0">
+        <state line="32" column="102" selection-start="1469" selection-end="1469" vertical-scroll-proportion="0.7931624">
           <folding>
-            <element signature="e#40#82#0" expanded="true" />
+            <element signature="e#40#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-orm-3.2.3.RELEASE-sources.jar!/org/springframework/orm/hibernate3/TransactionAwareDataSourceConnectionProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="75" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#1871#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+    <entry file="dbDummy://dbtable:/b6b294a3/e4e1fb5d-ecc0-4568-adaa-66d1b67ae4d3/tenant_dns.public.tenant_dns_map">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-orm-3.2.3.RELEASE-sources.jar!/org/springframework/orm/hibernate3/LocalDataSourceConnectionProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="21" selection-start="1873" selection-end="1873" vertical-scroll-proportion="0.9574468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/utils/com/genologics/utils/hibernate/TenantResolver.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="248" selection-end="255" vertical-scroll-proportion="0.21516393">
-          <folding />
-        </state>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>

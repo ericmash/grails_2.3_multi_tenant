@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="4218985387">
+  <component name="DataSourceManagerImpl" format="xml" hash="1174125054">
     <data-source source="LOCAL" name="ObjectTestDB" product="PostgreSQL" version="9.2.3" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="8a2ca9eb-a980-477b-a2f2-7c7e6502d27e">
       <identifier-quote-string>&quot;</identifier-quote-string>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/objectTestDB</jdbc-url>
+      <user-name>proteo</user-name>
+      <libraries>
+        <library>
+          <url>file://$MAVEN_REPOSITORY$/postgresql/postgresql/9.2-1002.jdbc4/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Tenant DB" product="PostgreSQL" version="9.2.3" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="e4e1fb5d-ecc0-4568-adaa-66d1b67ae4d3">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/tenant_dns</jdbc-url>
       <user-name>proteo</user-name>
       <libraries>
         <library>
