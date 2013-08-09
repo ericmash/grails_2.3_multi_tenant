@@ -1,14 +1,9 @@
 package com.genologics.utils.hibernate
 
 import org.hibernate.cfg.AvailableSettings
-import org.hibernate.service.UnknownUnwrapTypeException
 import org.hibernate.service.jdbc.connections.internal.DriverManagerConnectionProviderImpl
 import org.hibernate.service.jdbc.connections.spi.AbstractMultiTenantConnectionProvider
 import org.hibernate.service.jdbc.connections.spi.ConnectionProvider
-import org.hibernate.service.jdbc.connections.spi.MultiTenantConnectionProvider
-
-import java.sql.Connection
-import java.sql.SQLException
 
 class MultiTenantConnectionProviderImpl extends AbstractMultiTenantConnectionProvider {
 
@@ -21,27 +16,36 @@ class MultiTenantConnectionProviderImpl extends AbstractMultiTenantConnectionPro
 
     @Override
     protected ConnectionProvider selectConnectionProvider(String tenantId) {
-        ConnectionProvider connectionProvider = tenantIdToConnectionProvider[tenantId]
+        // instead of using tenant id that is stored in each hibernate 4 session
+        // use the tenant id in ThreadLocal variable which is resolved from DNS
+        String resolvedTenantId = CurrentTenantHolder.tenantId
+        ConnectionProvider connectionProvider = tenantIdToConnectionProvider[resolvedTenantId]
 
         if (!connectionProvider) {
-            connectionProvider = new DriverManagerConnectionProviderImpl();
-            Map configuration = [
-                    (AvailableSettings.DRIVER): 'org.postgresql.Driver',
-                    (AvailableSettings.AUTOCOMMIT): false
-            ]
-
-            // instead of using tenant id that is stored in each hibernate 4 session
-            // use the tenant id in ThreadLocal variable which is resolved from DNS
-            switch (CurrentTenantHolder.tenantId) {
+            switch (resolvedTenantId) {
                 case 'tenant1':
-                    configuration[AvailableSettings.URL] = 'jdbc:postgresql://localhost:5432/multiTenant1'
+                    connectionProvider = createConnectionProvider('multiTenant1')
                     break
+                case 'default':
                 default:
-                    configuration[AvailableSettings.URL] = 'jdbc:postgresql://localhost:5432/objectTestDB'
+                    connectionProvider = createConnectionProvider('objectTestDB')
+                    break
             }
 
-            connectionProvider.configure(configuration)
+            tenantIdToConnectionProvider[resolvedTenantId] = connectionProvider
         }
+
+        return connectionProvider
+    }
+
+    private ConnectionProvider createConnectionProvider(String databaseName) {
+        ConnectionProvider connectionProvider = new DriverManagerConnectionProviderImpl()
+
+        connectionProvider.configure([
+                (AvailableSettings.DRIVER): 'org.postgresql.Driver',
+                (AvailableSettings.AUTOCOMMIT): false,
+                (AvailableSettings.URL): "jdbc:postgresql://localhost:5432/$databaseName" as String
+        ])
 
         return connectionProvider
     }
